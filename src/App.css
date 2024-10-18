@@ -11,6 +11,7 @@
 
 body {
   background: var(--stone100);
+  font-family: "Outfit", sans-serif;
   font-size: 16px;
   display: flex;
   justify-content: center;
@@ -26,7 +27,7 @@ body {
   border-radius: 15px;
 }
 
-.img-container {
+.recipe-container {
   width: 90%;
   padding-top: 3rem;
 }
@@ -35,5 +36,15 @@ img {
   width: 100%;
   object-fit: contain;
   border-radius: 15px;
-  margin-bottom: 3rem;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 1.3rem;
 }
