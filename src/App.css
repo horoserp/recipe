@@ -23,6 +23,7 @@ body {
   display: flex;
   justify-content: center;
   width: 50vw;
+  padding-bottom: 3rem;
   background: var(--white);
   border-radius: 15px;
 }
@@ -61,6 +62,10 @@ p {
 
 .bold {
   font-weight: 600;
+}
+
+.prep ul {
+  padding-inline-start: 30px;
 }
 
 .prep li {
