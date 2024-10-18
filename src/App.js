@@ -1,6 +1,7 @@
 import RecipeTitle from "./RecipeTitle";
 import "./App.css";
 import Ingredients from "./Ingredients";
+import Instructions from "./Instructions";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <img src="/image-omelette.jpeg" alt="Simple Omelette Recipe" />
         <RecipeTitle />
         <Ingredients />
+        <Instructions />
       </main>
     </div>
   );
