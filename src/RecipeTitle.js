@@ -1,4 +1,5 @@
 import React from "react";
+import Prep from "./Prep";
 
 function RecipeTitle() {
   return (
@@ -9,6 +10,7 @@ function RecipeTitle() {
         combines beaten eggs cooked to perfection, optionally filled with your
         choice of cheese, vegetables, or meats.
       </p>
+      <Prep />
     </section>
   );
 }

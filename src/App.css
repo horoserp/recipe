@@ -48,3 +48,21 @@ h1 {
 p {
   font-size: 1.3rem;
 }
+
+.prep {
+  background: var(--rose50);
+  border-radius: 15px;
+  padding: 10px 35px;
+}
+
+.prep h2 {
+  color: var(--rose800);
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.prep li {
+  line-height: 2;
+}

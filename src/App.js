@@ -4,10 +4,10 @@ import "./App.css";
 function App() {
   return (
     <div className="container">
-      <div class="recipe-container">
+      <main class="recipe-container">
         <img src="/image-omelette.jpeg" alt="Simple Omelette Recipe" />
         <RecipeTitle />
-      </div>
+      </main>
     </div>
   );
 }
