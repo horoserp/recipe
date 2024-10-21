@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="container">
       <main class="recipe-container">
-        <img src="/image-omelette.jpeg" alt="Simple Omelette Recipe" />
+        <img src="/recipe/image-omelette.jpeg" alt="Simple Omelette Recipe" />
         <RecipeTitle />
         <Ingredients />
         <Instructions />
