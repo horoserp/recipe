@@ -216,15 +216,88 @@ td:nth-child(2) {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  body {
+    margin: 0;
+  }
+
+  .container {
+    width: 100vw;
+    border-radius: 0px;
+  }
+
+  .recipe-container {
+    width: 100%;
+    padding: 0;
+  }
+
+  img {
+    border-radius: 0;
+  }
+
+  section {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .title p {
+    font-size: 16.7px;
+  }
+
+  .prep span {
+    padding-right: 5px;
+  }
+
+  .prep ul {
+    padding: 0 0 0 0px;
+  }
+
+  .prep li {
+    padding: 0;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    display: flex;
+    align-items: center;
+  }
+
+  .prep li::before {
+    content: "";
+    width: 0.35rem;
+    height: 0.35rem;
+    border-radius: 50%;
+    background: black;
+    margin: 0 2.25rem 0 0.5rem;
+  }
+
+  .instructions ol {
+    padding-left: 30px;
+  }
+
+  .instructions li {
+    font-size: 17.8px;
+  }
+
+  p {
+    font-size: 19px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 80vw;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 66vw;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
