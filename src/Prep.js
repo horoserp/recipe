@@ -6,7 +6,9 @@ function Prep() {
       <h2>Preparation time</h2>
       <ul>
         <li>
-          <span className="bold">Total:</span> Approximately 10 minutes
+          <span>
+            <strong>Total:</strong> Approximately 10 minutes
+          </span>
         </li>
         <li>
           <span className="bold">Preparation:</span> 5 minutes

@@ -4,7 +4,7 @@ function Instructions() {
   return (
     <section className="instructions">
       <h2>Instructions</h2>
-      <ul>
+      <ol>
         <li>
           <span class="bold">Beat the eggs:</span> In a bowl, beat the eggs with
           a pinch of salt and pepper until they are well mixed. You can add a
@@ -33,7 +33,7 @@ function Instructions() {
           <span class="bold">Enjoy:</span> Serve hot, with additional salt and
           pepper if needed.
         </li>
-      </ul>
+      </ol>
       <hr />
     </section>
   );
