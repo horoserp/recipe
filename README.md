@@ -26,7 +26,7 @@ The challenge was to recreate a recipe page from scratch. I do not have a pro ac
 
 ### Links
 
-- Solution URL: (https://horoserp.github.io/recipe)
+- Solution URL: (https://github.com/horoserp/recipe)
 - Live Site URL: (https://horoserp.github.io/recipe)
 
 ## My process
