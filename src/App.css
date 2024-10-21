@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+  margin: 5rem 0;
 }
 
 .container {
@@ -74,7 +74,8 @@ p {
 }
 
 .ingredients h2,
-.instructions h2 {
+.instructions h2,
+.nutrition h2 {
   font-family: "Young Serif", serif;
   font-size: 2rem;
   color: var(--rose800);
@@ -96,4 +97,28 @@ hr {
 .instructions li {
   font-size: 1.4rem;
   margin-bottom: 16px;
+}
+
+table {
+  width: 100%;
+  font-size: 1.3rem;
+  border-collapse: collapse;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid lightgrey;
+}
+
+tr:last-child td {
+  padding: 20px 50px 0px 50px;
+}
+
+td {
+  padding: 20px 50px;
+}
+
+td:nth-child(2) {
+  color: var(--rose800);
+  font-weight: 800;
+  padding-right: 95px;
 }

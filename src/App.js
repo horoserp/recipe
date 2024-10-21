@@ -2,6 +2,7 @@ import RecipeTitle from "./RecipeTitle";
 import "./App.css";
 import Ingredients from "./Ingredients";
 import Instructions from "./Instructions";
+import Nutrition from "./Nutrition";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <RecipeTitle />
         <Ingredients />
         <Instructions />
+        <Nutrition />
       </main>
     </div>
   );
