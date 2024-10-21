@@ -3,7 +3,7 @@ import Prep from "./Prep";
 
 function RecipeTitle() {
   return (
-    <section>
+    <section className="title">
       <h1>Simple Omelette Recipe</h1>
       <p>
         An easy and quick dish, perfect for any meal. This classic omelette
