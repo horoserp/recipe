@@ -9,7 +9,7 @@ function Ingredients() {
         <li>Salt, to taste</li>
         <li>Pepper, to taste</li>
         <li>1 tablespoon of butter or oil</li>
-        <li>
+        <li className="wider">
           Optional fillings: cheese, diced vegetables, cooked meats, herbs
         </li>
       </ul>
