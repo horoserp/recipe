@@ -11,10 +11,14 @@ function Prep() {
           </span>
         </li>
         <li>
-          <span className="bold">Preparation:</span> 5 minutes
+          <span>
+            <strong>Preparation:</strong> 5 minutes
+          </span>
         </li>
         <li>
-          <span className="bold">Cooking:</span> 5 minutes
+          <span>
+            <strong>Cooking:</strong> 5 minutes
+          </span>
         </li>
       </ul>
     </article>

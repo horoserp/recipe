@@ -7,7 +7,7 @@ import Nutrition from "./Nutrition";
 function App() {
   return (
     <div className="container">
-      <main class="recipe-container">
+      <main className="recipe-container">
         <img src="/recipe/image-omelette.jpeg" alt="Simple Omelette Recipe" />
         <RecipeTitle />
         <Ingredients />
